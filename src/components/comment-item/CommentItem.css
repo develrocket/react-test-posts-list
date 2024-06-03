@@ -1,0 +1,21 @@
+.comment-item-card {
+    display: flex;
+    align-items: start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.comment-item-card img {
+    width: 58px;
+    margin-right: 15px;
+    border-radius: 40px;
+    padding: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.comment-item-card p {
+    margin: 0;
+}

@@ -1,0 +1,63 @@
+.post-item-card {
+    border: 1px solid #a3a3a3;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+}
+
+.post-item-card .title {
+    font-size: 20px;
+}
+
+.post-item-card .description {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.post-item-card .user-info {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.post-item-card .user-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 40px;
+    padding: 2px;
+    border: 1px solid #fff;
+}
+
+.comment-box {
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.comment-box .box-title {
+    position: absolute;
+    top: -17px;
+    font-size: 19px;
+    background: #282c34;
+    padding: 0 10px;
+    left: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.comment-box .loading-gif {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}

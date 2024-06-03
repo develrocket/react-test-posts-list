@@ -55,7 +55,7 @@ function App() {
         {isLoading && <img src="/loading.gif" className="loading-gif" />}
         {
           !isLoading && (
-            <div>
+            <div style={{width: '100%'}}>
               {
                 users.length && (
                   <div className='filter-box'>
